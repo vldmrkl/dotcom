@@ -1,0 +1,228 @@
+body {
+  font-family: IBM Plex Sans;
+  font-size: 1em;
+  overflow-x: hidden;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-inline-start: 0;
+}
+
+.social li {
+  font-size: 1.5em;
+  padding: 0 0.5em;
+  border-right: 1px solid lightgray;
+}
+
+.social li:last-child {
+  border: none;
+}
+
+footer {
+  padding-top: 1em;
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #0066ff;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: IBM Plex Mono;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.65em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+h2 {
+  font-family: IBM Plex Mono;
+  color: darkgray;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.25em;
+}
+
+hr {
+  width: 60%;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 8em;
+  width: 8em;
+}
+
+.header {
+  margin: 2em auto;
+  margin-top: 5em;
+  width: 70%;
+}
+
+.header h1 {
+  padding-left: 1em;
+}
+
+.bio-section {
+  margin: 2em auto;
+  width: 40%;
+  min-width: 350px;
+}
+
+.experience-section {
+  margin-top: 2em;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid lightgray;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.site-link {
+  font-family: IBM Plex Mono;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.job-title-section {
+  margin-left: 1em;
+  width: 30%;
+  min-width: 150px;
+}
+
+.job-title-section p {
+  margin: 0;
+}
+
+.section-desc {
+  margin: 0 auto;
+  width: 60%;
+  min-width: 300px;
+}
+
+.card,
+.flip-card {
+  background: #ffffff;
+  border: 1px solid #f7f7f7;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 500ms;
+
+  display: flex;
+  flex-direction: column;
+
+  height: 220px;
+  margin: 0.5em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.card:hover,
+.flip-card:hover {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.flip-card {
+  height: 300px;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.card h1,
+.flip-card h1 {
+  font-size: 1.15em;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 0;
+}
+
+.flip-card h1 {
+  padding-top: 0.5em;
+}
+
+.card p,
+.flip-card p {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  color: #3d3d3d;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.card-img {
+  height: 50%;
+  object-fit: cover;
+  position: relative;
+  border-radius: 5px;
+  top: 0;
+}
+
+.card-face,
+.card-back {
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  right: 0.5em;
+  bottom: 0.5em;
+}
+
+.card-back {
+  display: none;
+}
+
+.card-btn {
+  background-color: #0066ff;
+  border-radius: 5px;
+  box-shadow: none;
+  padding: 0.25em 1em;
+  color: #ffffff;
+
+  text-align: center;
+  transition: background-color 500ms;
+
+  position: absolute;
+  bottom: 0.75em;
+  left: 0.5em;
+  right: 0.5em;
+}
+
+.card-btn:hover {
+  color: #ffffff;
+  background-color: #2079ff;
+  text-decoration: none;
+}
+
+.card-btn:active {
+  background-color: #408cff;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.col-md-4 .card {
+  max-width: 230px;
+}
+
+.col-md-4 .flip-card {
+  max-width: 300px;
+}
