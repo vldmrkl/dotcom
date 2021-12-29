@@ -18,6 +18,10 @@ export default function App() {
         <title>Volodymyr Klymenko</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta
+          name="description"
+          content="Volodymyr Klymenko, Software Developer in Toronto."
+        />
         <Meta />
         <link
           rel="apple-touch-icon"
