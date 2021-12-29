@@ -1,8 +1,7 @@
 {
   "private": true,
-  "name": "remix-app-template-js",
-  "description": "",
-  "license": "",
+  "name": "vldmrkl.com",
+  "license": "MIT",
   "scripts": {
     "build": "npm run build:css && remix build",
     "build:css": "tailwindcss -o ./app/tailwind.css",

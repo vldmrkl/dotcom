@@ -1,6 +1,22 @@
-# Welcome to Remix!
+# vldmrkl.com
 
-- [Remix Docs](https://remix.run/docs)
+This website is built with [Remix](https://remix.run/) and [Tailwind CSS](https://tailwindcss.com/)
+
+## Development
+
+Install dependencies:
+
+```sh
+npm i
+```
+
+Run:
+
+```sh
+npm run dev
+```
+
+The website will run on [http://localhost:3000](http://localhost:3000).
 
 ## Netlify Setup
 
@@ -28,17 +44,7 @@ netlify login
 netlify init
 ```
 
-## Development
-
-The Netlify CLI starts your app in development mode, rebuilding assets on file changes.
-
-```sh
-npm run dev
-```
-
-Open up [http://localhost:3000](http://localhost:3000), and you should be ready to go!
-
-## Deployment
+## Netlify Deployment
 
 There are two ways to deploy your app to Netlify, you can either link your app to your git repo and have it auto deploy changes to Netlify, or you can deploy your app manually. If you've followed the setup instructions already, all you need to do is run this:
 
