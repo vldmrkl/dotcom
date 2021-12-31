@@ -6,7 +6,7 @@ export default function Card(props) {
 
   return (
     <div
-      className={`h-${height} w-1/3 max-w-xs p-4 mx-4 basis-full shadow-lg rounded-md flex flex-col`}
+      className={`h-${height} w-1/3 max-w-xs p-4 mx-4 basis-full shadow-lg rounded-md flex flex-col bg-white`}
     >
       {mediaType === 'video' && (
         <iframe

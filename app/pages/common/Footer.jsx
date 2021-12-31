@@ -3,7 +3,7 @@ import Links from '~/pages/common/Links';
 
 export default function Footer() {
   return (
-    <footer id="contact" className="text-center my-8">
+    <footer className="text-center py-2">
       <Links
         links={links}
         iconSize="2xl"

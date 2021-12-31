@@ -1,31 +1,31 @@
+import { Link } from 'remix';
 import { headerLinks as links } from '~/pages/data';
 
 export default function Header() {
   return (
-    <header
-      className="px-4 py-2
-        backdrop-blur-lg backdrop-saturate-150
-        border-b-2 border-gray-300"
-    >
+    <header className="px-4 py-4 w-screen">
       <nav className="flex items-center justify-between flex-wrap">
-        <a
+        <Link
           className="text-lg font-mono font-medium hover:text-blue-500"
-          href="https://vldmrkl.com"
+          to={'/'}
         >
           vldmrkl.com
-        </a>
-
-        <ul className="hidden sm:flex flex-col sm:flex-row ml-auto">
-          {links.map((link) => (
-            <li key={link.title}>
-              <a
-                className="px-2 text-base font-mono text-gray-500 hover:text-gray-600"
-                href={link.url}
+        </Link>
+        <ul className="sm:flex sm:flex-row ml-auto">
+          {links.map((link) => {
+            // hide home page scrolling links on small devices
+            const displayCss = `${
+              link.url.includes('#') ? 'hidden' : 'inline'
+            } sm:inline`;
+            return (
+              <li
+                className={`${displayCss} px-2 text-base font-mono text-gray-500 hover:text-gray-600 cursor-pointer`}
+                key={link.title}
               >
-                {link.title}
-              </a>
-            </li>
-          ))}
+                <Link to={link.url}>{link.title}</Link>
+              </li>
+            );
+          })}
         </ul>
       </nav>
     </header>

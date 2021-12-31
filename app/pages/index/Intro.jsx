@@ -1,6 +1,6 @@
 export default function Intro() {
   return (
-    <section id="header" className="mt-20 mb-8">
+    <section id="header" className="mb-8">
       <div className="flex flex-row justify-center items-center">
         <img
           src="/img/avatar.jpg"
@@ -21,7 +21,8 @@ export default function Intro() {
           with passion and enthusiasm.
         </p>
         <p className="py-2">
-          ✍️ &nbsp; I occasionally blog about my journeys in development.
+          ✍️ &nbsp; I occasionally blog about my journeys in software
+          development.
         </p>
       </div>
     </section>

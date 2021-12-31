@@ -1,4 +1,6 @@
-import { Meta, LiveReload, Links, Outlet } from 'remix';
+import { Meta, LiveReload, Links, Scripts, Outlet } from 'remix';
+import Header from '~/pages/common/Header';
+import Footer from '~/pages/common/Footer';
 import styles from './tailwind.css';
 
 export function links() {
@@ -15,13 +17,8 @@ export default function App() {
   return (
     <html lang="en">
       <head>
-        <title>Volodymyr Klymenko</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <meta
-          name="description"
-          content="Volodymyr Klymenko, Software Developer in Toronto."
-        />
         <Meta />
         <link
           rel="apple-touch-icon"
@@ -43,8 +40,13 @@ export default function App() {
         <link rel="shortcut icon" href="/img/favicon.ico" />
         <Links />
       </head>
-      <body>
-        <Outlet />
+      <body className="bg-gray-50">
+        <Header />
+        <main className="max-w-6xl mx-auto my-8">
+          <Outlet />
+        </main>
+        <Footer />/
+        <Scripts />
         {process.env.NODE_ENV === 'development' ? <LiveReload /> : null}
       </body>
     </html>
