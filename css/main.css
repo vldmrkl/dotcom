@@ -4,6 +4,13 @@ body {
   overflow-x: hidden;
 }
 
+.alert {
+  position: fixed;
+  bottom: 1rem;
+  right: 0.5rem;
+  z-index: 9999;
+}
+
 .social {
   list-style: none;
   display: flex;
