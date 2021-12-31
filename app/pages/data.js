@@ -1,9 +1,8 @@
 export const headerLinks = [
-  { title: 'Experience', url: '#experience' },
-  { title: 'Projects', url: '#projects' },
-  { title: 'Open-Source', url: '#open-source' },
-  { title: 'Blog', url: 'https://blog.vldmrkl.com/' },
-  { title: 'Contact', url: '#contact' },
+  { title: 'Experience', url: '/#experience' },
+  { title: 'Projects', url: '/#projects' },
+  { title: 'Open-Source', url: '/#open-source' },
+  { title: 'Blog', url: '/blog' },
 ];
 
 export const experiences = [
