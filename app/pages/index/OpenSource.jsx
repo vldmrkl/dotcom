@@ -13,13 +13,13 @@ export default function OpenSource() {
         <br />
         <br />I was introduced to open-source development when I studied at
         Seneca College. Since then, I've contributed to many large and small
-        open source projects. You can learn more about my adventures in the
+        open-source projects. You can learn more about my adventures in the
         world of OSS in{' '}
         <a
           className="text-zinc-800 hover:text-blue-500 underline"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://blog.vldmrkl.com/from-writing-unit-tests-to-working-on-the-software-from-mozilla-microsoft-and-airbnb/"
+          href="https://vldmrkl.com/blog/from-writing-unit-tests-to-working-on-the-software-from-mozilla-microsoft-and-airbnb/"
         >
           one of my blog posts
         </a>
