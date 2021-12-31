@@ -1,5 +1,5 @@
 $(() => {
-  $('.internal-link').on('click', function(event) {
+  $('.internal-link').on('click', function (event) {
     event.preventDefault();
 
     // smoothly slide to the position of the link's destination
@@ -10,18 +10,15 @@ $(() => {
       700,
     );
   });
+  $('.alert').alert();
 
-  $('.card-face').on('click', function(event) {
+  $('.card-face').on('click', function (event) {
     $(this).fadeOut('fast');
-    $(this)
-      .next('.card-back')
-      .fadeIn('slow');
+    $(this).next('.card-back').fadeIn('slow');
   });
 
-  $('.card-back').on('click', function(event) {
+  $('.card-back').on('click', function (event) {
     $(this).fadeOut('fast');
-    $(this)
-      .prev('.card-face')
-      .fadeIn('slow');
+    $(this).prev('.card-face').fadeIn('slow');
   });
 });
