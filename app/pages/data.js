@@ -252,6 +252,11 @@ export const footerLinks = [
     iconClassName: 'fa-envelope',
   },
   {
+    ariaLabel: 'RSS icon button',
+    url: 'https://vldmrkl.com/blog/rss.xml',
+    iconClassName: 'fa-rss',
+  },
+  {
     ariaLabel: 'Twitter icon button',
     url: 'https://twitter.com/vldmrkl',
     iconClassName: 'fa-twitter',
