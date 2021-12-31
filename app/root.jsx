@@ -45,7 +45,7 @@ export default function App() {
         <main className="max-w-6xl mx-auto my-8">
           <Outlet />
         </main>
-        <Footer />/
+        <Footer />
         <Scripts />
         {process.env.NODE_ENV === 'development' ? <LiveReload /> : null}
       </body>

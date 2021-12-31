@@ -3,7 +3,7 @@ import { headerLinks as links } from '~/pages/data';
 
 export default function Header() {
   return (
-    <header className="px-4 py-4 w-screen">
+    <header className="px-4 py-4">
       <nav className="flex items-center justify-between flex-wrap">
         <Link
           className="text-lg font-mono font-medium hover:text-blue-500"
