@@ -3,7 +3,7 @@ import fs from 'fs/promises';
 import parseFrontMatter from 'front-matter';
 import { marked } from 'marked';
 
-const contentPath = path.join(__dirname, '..', 'content');
+const contentPath = path.join(__dirname, '../../../', 'content');
 
 export async function getPosts() {
   const dir = await fs.readdir(contentPath);
