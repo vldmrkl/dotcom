@@ -78,7 +78,7 @@ export const projects = [
   {
     title: 'bluebird',
     description: 'A voice bot for reading tweets from your Twitter tl 🔉',
-    mediaUrl: '/img/bb.jpeg',
+    mediaUrl: '/img/bb.jpg',
     mediaType: 'image',
     links: [
       {
