@@ -18,6 +18,9 @@ export const meta = ({ data }) => {
     description: data.description
       ? data.description
       : `Blog post about ${data.title} by Volodymyr Klymenko`,
+    'twitter:card': 'summary',
+    'og:description': data.description,
+    'og:image': 'https://vldmrkl.com/img/site-share.png',
   };
 };
 
