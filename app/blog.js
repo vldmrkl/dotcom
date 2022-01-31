@@ -15,7 +15,9 @@ async function parseMarkdown(filename) {
     html,
     title: attributes.title,
     description: attributes.description,
-    date: new Date(attributes.date).toLocaleDateString(),
+    date: new Date(attributes.date).toLocaleDateString('en-US', {
+      timeZone: 'UTC',
+    }),
   };
 }
 

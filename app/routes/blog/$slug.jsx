@@ -29,7 +29,7 @@ export default function PostSlug() {
       <h1 className="text-6xl font-bold text-gray-900">{post.title}</h1>
       <p className="font-light text-lg text-zinc-500 py-2">{post.date}</p>
       <div
-        className="mt-10 prose"
+        className="mt-10 prose prose-quoteless"
         dangerouslySetInnerHTML={{ __html: post.html }}
       />
     </article>
