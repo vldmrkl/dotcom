@@ -18,8 +18,11 @@ export const meta = ({ data }) => {
     description: data.description
       ? data.description
       : `Blog post about ${data.title} by Volodymyr Klymenko`,
-    'twitter:card': 'summary',
+    'twitter:card': 'summary_large_image',
+    'twitter:title': data.title,
+    'twitter:text:title': data.title,
     'og:description': data.description,
+    'og:title': data.title,
     'og:image': 'https://vldmrkl.com/img/site-share.png',
   };
 };

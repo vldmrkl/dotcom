@@ -8,8 +8,11 @@ export const meta = () => {
   return {
     title: 'Volodymyr Klymenko',
     description: 'Volodymyr Klymenko, Software Developer in Toronto',
-    'twitter:card': 'summary',
+    'twitter:card': 'summary_large_image',
+    'twitter:title': 'The personal site of Volodymyr Klymenko',
+    'twitter:text:title': 'The personal site of Volodymyr Klymenko',
     'og:description': 'Volodymyr Klymenko, Software Developer in Toronto',
+    'og:title': 'The personal site of Volodymyr Klymenko',
     'og:image': 'https://vldmrkl.com/img/site-share.png',
   };
 };
