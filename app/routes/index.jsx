@@ -7,7 +7,10 @@ import OpenSource from '~/pages/index/OpenSource';
 export const meta = () => {
   return {
     title: 'Volodymyr Klymenko',
-    description: 'Volodymyr Klymenko, Software Developer in Toronto.',
+    description: 'Volodymyr Klymenko, Software Developer in Toronto',
+    'twitter:card': 'summary',
+    'og:description': 'Volodymyr Klymenko, Software Developer in Toronto',
+    'og:image': 'https://vldmrkl.com/img/site-share.png',
   };
 };
 
