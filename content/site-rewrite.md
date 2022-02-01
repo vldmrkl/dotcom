@@ -1,6 +1,6 @@
 ---
 title: Site Rewrite
-description: How I rewrote my website and blog into Remix and Tailwind CSS.
+description: How I rebuilt my website and blog with Remix and Tailwind CSS.
 date: 2022-01-30
 ---
 
