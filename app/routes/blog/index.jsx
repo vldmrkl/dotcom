@@ -1,15 +1,26 @@
 import { Link, useLoaderData } from 'remix';
 import Header from '~/pages/common/Header';
 import { getPosts } from '~/blog';
+import { SITE_BASE_URL } from '~/utils/constants';
 
 export const loader = () => {
   return getPosts();
 };
 
-export const meta = () => {
+export const meta = ({ location }) => {
   return {
     title: "Volodymyr Klymenko's Blog",
     description: 'The blog of Volodymyr Klymenko about software development.',
+    'twitter:card': 'summary_large_image',
+    'twitter:title':
+      'The blog of Volodymyr Klymenko about software development',
+    'twitter:text:title': 'The blog of Volodymyr Klymenko',
+    'og:title': 'The blog of Volodymyr Klymenko',
+    'og:url': SITE_BASE_URL + location.pathname,
+    'og:type': 'website',
+    'og:description':
+      'The blog of Volodymyr Klymenko about software development',
+    'og:image': SITE_BASE_URL + '/img/site-share.png',
   };
 };
 

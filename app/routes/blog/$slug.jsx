@@ -1,11 +1,12 @@
 import { useLoaderData } from 'remix';
 import { getPost } from '~/blog';
+import { SITE_BASE_URL } from '~/utils/constants';
 
 export const loader = async ({ params }) => {
   return getPost(params.slug);
 };
 
-export const meta = ({ data }) => {
+export const meta = ({ data, location, params }) => {
   if (!data) {
     return {
       title: "Volodymyr Klymenko's Blog",
@@ -21,9 +22,11 @@ export const meta = ({ data }) => {
     'twitter:card': 'summary_large_image',
     'twitter:title': data.title,
     'twitter:text:title': data.title,
-    'og:description': data.description,
     'og:title': data.title,
-    'og:image': 'https://vldmrkl.com/img/site-share.png',
+    'og:url': SITE_BASE_URL + location.pathname,
+    'og:type': 'website',
+    'og:description': data.description,
+    'og:image': SITE_BASE_URL + '/img/site-share.png',
   };
 };
 

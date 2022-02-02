@@ -3,6 +3,7 @@ import Intro from '~/pages/index/Intro';
 import Experience from '~/pages/index/Experience';
 import Projects from '~/pages/index/Projects';
 import OpenSource from '~/pages/index/OpenSource';
+import { SITE_BASE_URL } from '~/utils/constants';
 
 export const meta = () => {
   return {
@@ -11,9 +12,11 @@ export const meta = () => {
     'twitter:card': 'summary_large_image',
     'twitter:title': 'The personal site of Volodymyr Klymenko',
     'twitter:text:title': 'The personal site of Volodymyr Klymenko',
-    'og:description': 'Volodymyr Klymenko, Software Developer in Toronto',
     'og:title': 'The personal site of Volodymyr Klymenko',
-    'og:image': 'https://vldmrkl.com/img/site-share.png',
+    'og:url': SITE_BASE_URL,
+    'og:type': 'website',
+    'og:description': 'Volodymyr Klymenko, Software Developer in Toronto',
+    'og:image': SITE_BASE_URL + '/img/site-share.png',
   };
 };
 
