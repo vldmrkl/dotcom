@@ -22,7 +22,7 @@ I remember one day I wanted to update something the blog, and I didn't have the 
 
 In addition to that, the app was fully styled with styled-jsx library, which I haven't tried prior to this project and, to be honest, **I personally** didn't like it that much. These factors made the maintenance of this app less enjoyable, and if I had any ideas for new features, I would just delay them.
 
-> The first version of the blog is currently available at [blog.vldmrkl.com](https://blog.vldmrkl.com/).
+> The source code of the first version of the blog is available at [https://github.com/vldmrkl/blog](https://github.com/vldmrkl/blog).
 
 My personal website had a link to the blog which would take the user to a separate site where the blog was hosted. I think this UX wasn't perfect, so I've always had an idea of merging my website and the blog into web application.
 
