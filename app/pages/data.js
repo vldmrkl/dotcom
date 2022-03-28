@@ -11,7 +11,7 @@ export const experiences = [
     logoUrl: '/img/inca-logo.png',
     title: 'Full-stack Developer',
     location: 'Toronto, ON',
-    timeline: 'May 2020 - Present',
+    timeline: 'May 2020 - March 2022',
   },
   {
     company: 'Seneca College',
@@ -112,7 +112,7 @@ export const projects = [
     description:
       'uOttaHack2019 Project: an iOS app that analyzes your surroundings and shows Augmented Reality content when a specific image was detected.',
     mediaUrl:
-      'https://www.youtube.com/embed/lJxRnStK5uA?controls=0&amp;enablejsapi=1&amp;origin=https://vldmrkl.com',
+      'https://www.youtube.com/embed/lJxRnStK5uA?controls=0&amp;enablejsapi=1&amp;origin=https://volodymyr.ca',
     mediaType: 'video',
     links: [
       {
@@ -125,7 +125,7 @@ export const projects = [
     title: 'CosmoZone',
     description: 'A Space Invaders-like Game for iOS 🚀',
     mediaUrl:
-      'https://www.youtube.com/embed/9jx86s8DJuI?controls=0&amp;enablejsapi=1&amp;origin=https://vldmrkl.com',
+      'https://www.youtube.com/embed/9jx86s8DJuI?controls=0&amp;enablejsapi=1&amp;origin=https://volodymyr.ca',
     mediaType: 'video',
     links: [
       {
@@ -138,7 +138,7 @@ export const projects = [
     title: 'Takitasty',
     description: 'An iOS app for discovering popular and local restaurants 🍝',
     mediaUrl:
-      'https://www.youtube.com/embed/VYO2fdsAfr4?controls=0&amp;enablejsapi=1&amp;origin=https://vldmrkl.com',
+      'https://www.youtube.com/embed/VYO2fdsAfr4?controls=0&amp;enablejsapi=1&amp;origin=https://volodymyr.ca',
     mediaType: 'video',
     links: [
       {
@@ -151,7 +151,7 @@ export const projects = [
     title: 'Matchify',
     description: 'A memory card matching game for iOS 🃏',
     mediaUrl:
-      'https://www.youtube.com/embed/ZpfQ_ZKMUYE?controls=0&amp;enablejsapi=1&amp;origin=https://vldmrkl.com',
+      'https://www.youtube.com/embed/ZpfQ_ZKMUYE?controls=0&amp;enablejsapi=1&amp;origin=https://volodymyr.ca',
     mediaType: 'video',
     links: [
       {
@@ -253,7 +253,7 @@ export const footerLinks = [
   },
   {
     ariaLabel: 'RSS icon button',
-    url: 'https://vldmrkl.com/blog/rss.xml',
+    url: 'https://volodymyr.ca/blog/rss.xml',
     iconClassName: 'fa-rss',
   },
   {

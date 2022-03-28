@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "vldmrkl.com",
+  "name": "volodymyr.ca",
   "license": "MIT",
   "scripts": {
     "build": "npm run build:css && remix build",

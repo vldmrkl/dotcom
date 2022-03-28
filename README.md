@@ -1,4 +1,4 @@
-# vldmrkl.com
+# volodymyr.ca
 
 This website is built with [Remix](https://remix.run/) and [Tailwind CSS](https://tailwindcss.com/)
 

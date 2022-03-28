@@ -1,1 +1,1 @@
-export const SITE_BASE_URL = 'https://vldmrkl.com';
+export const SITE_BASE_URL = 'https://volodymyr.ca';

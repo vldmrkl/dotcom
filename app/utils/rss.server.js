@@ -30,7 +30,7 @@ export async function buildRssString(reqHeaders) {
         <link>${blogUrl}</link>
         <description>The blog of Volodymyr Klymenko about software development.</description>
         <language>en-us</language>
-        <generator>vldmrkl.com</generator>
+        <generator>volodymyr.ca</generator>
         <ttl>40</ttl>
         ${posts
           .map((post) =>
