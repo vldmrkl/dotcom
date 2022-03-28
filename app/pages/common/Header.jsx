@@ -9,7 +9,7 @@ export default function Header() {
           className="text-lg font-mono font-medium hover:text-blue-500"
           to={'/'}
         >
-          vldmrkl.com
+          volodymyr.ca
         </Link>
         <ul className="sm:flex sm:flex-row ml-auto">
           {links.map((link) => {

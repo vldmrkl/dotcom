@@ -19,7 +19,7 @@ export default function OpenSource() {
           className="text-zinc-800 hover:text-blue-500 underline"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://vldmrkl.com/blog/from-writing-unit-tests-to-working-on-the-software-from-mozilla-microsoft-and-airbnb/"
+          href="https://volodymyr.ca/blog/from-writing-unit-tests-to-working-on-the-software-from-mozilla-microsoft-and-airbnb/"
         >
           one of my blog posts
         </a>
