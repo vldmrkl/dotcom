@@ -7,6 +7,13 @@ export const headerLinks = [
 
 export const experiences = [
   {
+    company: 'Nextdoor',
+    logoUrl: '/img/nextdoor-logo.png',
+    title: 'Software Engineer',
+    location: 'Toronto, ON',
+    timeline: 'April 2022 - Present',
+  },
+  {
     company: 'Nexxt Intelligence',
     logoUrl: '/img/inca-logo.png',
     title: 'Full-stack Developer',
