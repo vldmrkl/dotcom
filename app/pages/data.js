@@ -265,7 +265,7 @@ export const footerLinks = [
   },
   {
     ariaLabel: 'Twitter icon button',
-    url: 'https://twitter.com/vldmrkl',
+    url: 'https://twitter.com/volodymyr_ca',
     iconClassName: 'fa-twitter',
   },
   {
