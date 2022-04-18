@@ -39,7 +39,7 @@ export const experiences = [
     logoUrl: '/img/rbc-logo.png',
     title: 'Full-stack Developer',
     location: 'Toronto, ON',
-    timeline: 'January 2018 - April August 2018',
+    timeline: 'January 2018 - August 2018',
   },
 ];
 
