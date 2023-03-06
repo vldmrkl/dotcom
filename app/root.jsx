@@ -40,12 +40,10 @@ export default function App() {
         <link rel="shortcut icon" href="/img/favicon.ico" />
         <Links />
       </head>
-      <body className="bg-gray-50">
-        <Header />
+      <body className="bg-gray-50 mt-64 lg:mt-0">
         <main className="max-w-6xl mx-auto my-8">
           <Outlet />
         </main>
-        <Footer />
         <Scripts />
         {process.env.NODE_ENV === 'development' ? <LiveReload /> : null}
       </body>

@@ -254,11 +254,6 @@ export const openSourceProjects = [
 
 export const footerLinks = [
   {
-    ariaLabel: 'Mail icon button',
-    url: 'mailto:contact@vldmrkl.com',
-    iconClassName: 'fa-envelope',
-  },
-  {
     ariaLabel: 'RSS icon button',
     url: 'https://volodymyr.ca/blog/rss.xml',
     iconClassName: 'fa-rss',

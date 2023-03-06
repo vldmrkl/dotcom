@@ -1,8 +1,5 @@
 import { useEffect } from 'react';
-import Intro from '~/pages/index/Intro';
-import Experience from '~/pages/index/Experience';
-import Projects from '~/pages/index/Projects';
-import OpenSource from '~/pages/index/OpenSource';
+import MinimalisticMain from '~/pages/index/MinimalisticMain';
 import { SITE_BASE_URL } from '~/utils/constants';
 
 export const meta = () => {
@@ -35,12 +32,5 @@ export default function IndexRoute() {
     }
   });
 
-  return (
-    <>
-      <Intro />
-      <Experience />
-      <Projects />
-      <OpenSource />
-    </>
-  );
+  return <MinimalisticMain />;
 }
